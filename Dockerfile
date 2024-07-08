@@ -1,4 +1,4 @@
-FROM hub.jdcloud.com/base/golang:1.19.3-amd64
+FROM artifacthub.dev72.cvessel.jdcloud.com/jenkins/golang:1.19.3-amd64
 
 RUN go install github.com/beego/bee/v2@latest
 
